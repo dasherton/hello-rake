@@ -1,0 +1,6 @@
+task default: %w{hello}
+
+desc "Print hello rake"
+task :hello do
+	puts "Hello, rake!"
+end
